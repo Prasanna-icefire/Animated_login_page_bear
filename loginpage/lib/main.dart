@@ -38,7 +38,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+   {
     EdgeInsets devicePadding = MediaQuery.of(context).padding;
 
     return Scaffold(
