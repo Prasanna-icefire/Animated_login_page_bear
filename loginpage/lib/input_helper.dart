@@ -1,5 +1,3 @@
-
- 
 import 'package:flutter/rendering.dart';
 
 // Adapted these helpful functions from:
@@ -41,4 +39,3 @@ Offset getCaretPosition(RenderBox box) {
   );
   return endpoints[0].point + const Offset(0.0, -2.0);
 }
-
